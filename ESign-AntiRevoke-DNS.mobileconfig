@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+					<string>2606:4700:4700::1111</string>
+					<string>2606:4700:4700::1001</string>
+				</array>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>ESign Anti-Revoke DNS</string>
+			<key>PayloadDescription</key>
+			<string>Encrypted DNS profile for ESign (com.applejr.esign.5.0.2.national.autocert.fixed.unsigned.4312312c).</string>
+			<key>PayloadIdentifier</key>
+			<string>com.applejr.esign.antirevoke.dns.D8665993-86AB-4417-B247-673662A0BEF6</string>
+			<key>PayloadOrganization</key>
+			<string>ESign</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>D8665993-86AB-4417-B247-673662A0BEF6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>ESign Anti-Revoke DNS</string>
+	<key>PayloadDescription</key>
+	<string>DNS configuration for ESign 5.0.2 (com.applejr.esign.5.0.2.national.autocert.fixed.unsigned.4312312c).</string>
+	<key>PayloadIdentifier</key>
+	<string>com.applejr.esign.antirevoke.95BC98B8-E8AE-4783-A3A1-ADA24283ACAA</string>
+	<key>PayloadOrganization</key>
+	<string>ESign</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>95BC98B8-E8AE-4783-A3A1-ADA24283ACAA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
